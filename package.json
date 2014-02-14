@@ -1,24 +1,29 @@
 {
-   "name": "clockwork",
-   "version": "0.0.4",
-   "description": "Mediaburst Clockwork API wrapper",
-   "author": {
+   "name": "clockwork-sms",
+   "version": "0.0.1",
+   "description": "Official Mediaburst Clockwork API wrapper",
+   "contributors": [{
        "name": "Wes Mason",
        "email": "wes@1stvamp.org",
-       "web": "http://www.1stvamp.org/"
-   }, 
+       "url": "http://www.1stvamp.org/"
+   },{
+       "name": "Matt Roberts",
+       "email": "matt@mediaburst.co.uk",
+       "url": "http://www.mediaburst.co.uk/"
+   }
+   ], 
    "keywords": ["api", "clockwork", "mediaburst", "sms", "telephony"],
    "repository": {
        "type": "git",
-       "url": "https://github.com/1stvamp/node-clockwork.git" 
+       "url": "https://github.com/mediaburst/node-clockwork.git" 
    }, 
    "engines": {
        "node": ">= 0.3.0"
    },
    "dependencies": {
-       "request": "2.9.x",
-       "xmlbuilder": "0.3.x",
-       "xml2js": "0.1.x"
+       "request": ">=2.33.0",
+       "xmlbuilder": ">=2.1.0",
+       "xml2js": ">=0.4.1"
    },
    "directories": {
        "lib" : "./lib"

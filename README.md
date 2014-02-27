@@ -24,6 +24,11 @@ clockwork.sendSms({ To: '447123456789', Content: 'Test!'}, function(error, resp)
 });
 
 ```
+Getting an api key
+---
+
+First, head over to [clockwork](http://www.clockworksms.com) and signup if you're not already signed up. Once signed up, log in to your clockwork account and add a new API Key (from the top menu choose Sending -> API Keys). 
+
 
 Sending A Message
 ---

@@ -77,7 +77,7 @@ clockwork.getBalance(function(error, credit) {
     if (error) {
     	console.log('Something went wrong', error);
 	} else {
-		console.log('Your balance',resp);
+		console.log('Your balance',credit);
 	}
 });
 ```

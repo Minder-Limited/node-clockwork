@@ -19,7 +19,8 @@ clockwork.sendSms({ To: '447123456789', Content: 'Test!'}, function(error, resp)
     if (error) {
     	console.log('Something went wrong', error);
 	} else {
-		console.log('Message sent',resp.responses[0].id);
+		console.log('Message sent to',resp.SMS_Resp[0].To);
+		console.log('MessageID was',resp.SMS_Resp[0].MessageID);
 	}
 });
 

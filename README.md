@@ -37,7 +37,7 @@ You can send a single message as shown above. If you have multiple messages to s
 
 ```js
 clockwork.sendSms([{ To: '447123456789', Content: 'Test!'},
-				   { To: '447123456781', Content: 'Another one', From: 'ClockworkSMS'}], function(error, resp) {
+				   { To: '447123456781', Content: 'Another one'}], function(error, resp) {
     if (error) {
     	console.log('Something went wrong', error);
 	} else {
